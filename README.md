@@ -1,4 +1,5 @@
 Swapper запускается как 512
+
 Добавлен DFL Xseg
 
 ![image](https://github.com/Hillobar/Rope/assets/63615199/40f7397f-713c-4813-ac86-bab36f6bd5ba)
