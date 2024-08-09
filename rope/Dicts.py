@@ -188,6 +188,8 @@ DEFAULT_DATA = {
 'StrengthSwitchState':              False,
 'CLIPSwitchInfoText':               'TEXT MASKING:\nUse descriptions to identify objects that will be present in the final swapped image.',
 'CLIPSwitchState':                  False,
+'DFLXSegSwitchInfoText':            'DFL XSEG MASK:\nAllow objects occluding the face to show up in the swapped image.',
+'DFLXSegSwitchState':               False,
 
 # Sliders
 'BlendSliderAmount':                5,
@@ -275,6 +277,11 @@ DEFAULT_DATA = {
 'OccluderSliderInfoText':           'OCCLUDER AMOUNT:\nGrows or shrinks the occluded region',
 'OccluderSliderMax':                100,
 'OccluderSliderMin':                -100,
+'DFLXSegSliderAmount':             0,
+'DFLXSegSliderInc':                1,
+'DFLXSegSliderInfoText':           'DFL XSeg AMOUNT:\nGrows or shrinks the occluded region',
+'DFLXSegSliderMax':                100,
+'DFLXSegSliderMin':                -100,
 'OrientSliderAmount':               0,
 'OrientSliderInc':                  90,
 'OrientSliderInfoText':             'ORIENTATION ANGLE:\nSet this to the angle of the input face angle to help with laying down/upside down/etc. Angles are read clockwise.',
@@ -339,7 +346,7 @@ DEFAULT_DATA = {
 'MergeTextSelMode':          'Mean',
 'MergeTextSelModes':         ['Mean', 'Median'],
 'SwapperTypeTextSelInfoText':      'SWAPPER OUTPUT RESOLUTION:\nDetermines the resolution of the swapper output.',
-'SwapperTypeTextSelMode':          '128',
+'SwapperTypeTextSelMode':          '512',
 'SwapperTypeTextSelModes':         ['128', '256', '512'],
 
 
